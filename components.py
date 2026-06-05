@@ -1,11 +1,14 @@
-def metric_card():
-
-def risk_card():
-
-def ai_comment_box():
-
-def executive_dashboard():
-
-def radar_panel():
-
-def task_panel():
+def prepare_data(df):
+    """
+    Şimdilik veriyi paketler.
+    İleride stok, miad, skor, görev ve kaçırılan kâr hesapları burada yapılacak.
+    """
+    return {
+        "df": df,
+        "score": 82,
+        "critical_stock_count": 0,
+        "miad_count": 0,
+        "dead_stock_value": 0,
+        "order_count": 0,
+        "lost_profit": 0,
+    }
