@@ -1,23 +1,14 @@
-def calculate_score(df):
-
-    return 82
-
-
-def calculate_dead_stock(df):
-
-    return dead_stock_df
-
-
-def calculate_miad(df):
-
-    return miad_df
-
-
-def calculate_orders(df):
-
-    return order_df
-
-
-def calculate_lost_profit(df):
-
-    return result
+def prepare_data(df):
+    """
+    Şimdilik veriyi paketler.
+    İleride stok, miad, skor, görev ve kaçırılan kâr hesapları burada yapılacak.
+    """
+    return {
+        "df": df,
+        "score": 82,
+        "critical_stock_count": 0,
+        "miad_count": 0,
+        "dead_stock_value": 0,
+        "order_count": 0,
+        "lost_profit": 0,
+    }
